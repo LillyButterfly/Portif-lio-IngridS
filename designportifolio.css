@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+
+.menu {
+    position: fixed; 
+    top: 0; width: 100%; 
+    background-color: #FBDFE8; 
+}   
+.menu ul {
+    font-size: 18px; 
+    margin: 0 auto; float: 
+    none;
+}
+.menu ul li {
+    display: inline; 
+    text-align: justify; 
+    padding-left: 150px;
+}
+.menu ul li a {
+    margin: 0 auto;
+    color:#444444; 
+    text-decoration: none; 
+    box-shadow: none; 
+}
+    
+#nameheader{
+    font-family: 'Italianno', cursive; Roboto, sans-serif;
+    font-size: 40px; 
+    color:#181818; 
+    text-align:left; 
+    font-weight:lighter; 
+    display: inline
+}
+
+
+
+.titulos{text-align: left; 
+    font-size: 28px; 
+    padding: 20px;
+    font-family:'Roboto Flex', sans-serif;
+}
+
+
+
+.home{ 
+    background-image:url(../PtiWebStandards/assets/img/florembaixo.png);
+    background-size:cover; 
+    height: 100vh; 
+    padding-top: 50px;
+}
+
+.phome{
+    font-family:'Italianno', cursive; Roboto, sans-serif;
+    font-size: 70px; 
+    text-align: right; 
+    margin-top: 200px; 
+    text-align: center; 
+    color:#181818; 
+    background-color: #C3D9E8;
+}
+
+
+
+#nome-sobre{
+    font-family: 'Italianno', cursive; Roboto, sans-serif;
+    font-size: 35px; 
+    color:#181818; 
+    text-align:left;
+    font-weight:lighter; 
+    padding-top: 5px; 
+    padding-bottom: 5px; 
+    padding-left: 65px;
+}
+
+#profissao{
+    font-weight:lighter;
+}
+
+#me{
+    width: 130px; 
+    height: 200px; 
+    margin-left: 63px;
+    image-rendering: optimizeQuality; 
+}
+
+#titulo-formacao{
+    padding-top: 25px; 
+    padding-bottom: 10px; 
+    font-size: 18px;
+}
+
+.sobre{
+    background-color: #D8E2E8;; 
+    height: 380px;
+}
+.sobre .todas-caixas-sobre{ 
+    text-align: justify; 
+    display:flex; 
+    flex-direction: row; 
+    justify-content: space-evenly;
+}
+.sobre .todas-caixas-sobre .caixas li{
+    list-style: none; 
+    font-weight: lighter; 
+    font-size: 15px;
+    line-height: 30px;
+}
+.sobre .todas-caixas-sobre .caixas{
+    width: 350px;
+    height: 300px;
+}
+
+#imglanguages{
+    image-rendering: optimizeQuality; 
+    width: 60px;} 
+   
+
+
+
+.projetos{
+    background-color: #C3D9E8;
+    height: 380px;
+}
+.projetos .todas-caixas-pjt{
+    display: flex; 
+    flex-direction: row;  
+    justify-content: space-evenly;
+}
+.projetos .todas-caixas-pjt .caixa-pjt{
+   height: 300px;
+    width: 400px;
+}
+
+.projetos .pjt{ 
+    width: 300px; 
+    height: 250px;
+    image-rendering: optimizeQuality;
+    margin-top: 10px;
+    border-radius: 3px;
+    
+}
+
+
+.contato{
+    background-color: #D8E2E8;
+    height: 150px;
+}
+.contato .caixa-contatos{
+    display:flex; 
+    justify-content: center;
+    text-align: justify;
+    
+}
+.contato .caixa-contatos li{
+    display: inline;
+    line-height: 30px; 
+    list-style: none; 
+    padding-left: 80px;
+}
+
+.contato .caixa-contatos li img{
+    image-rendering: optimizeQuality; 
+    width: 20px;
+}
+
+.prodape{
+    background-color: #D8E2E8;
+    text-align: center;
+    color:#444444; 
+    padding-bottom: 15px;
+    font-weight: lighter;
+}
